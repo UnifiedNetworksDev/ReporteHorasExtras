@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportHorasExtras", "ReportHorasExtras\ReportHorasExtras.rptproj", "{B8A1D5F1-A296-41FC-B2F1-A570A461D461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.Debug|Default.ActiveCfg = Debug
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.Debug|Default.Build.0 = Debug
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.Debug|Default.Deploy.0 = Debug
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.DebugLocal|Default.Build.0 = DebugLocal
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.Release|Default.ActiveCfg = Release
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.Release|Default.Build.0 = Release
+		{B8A1D5F1-A296-41FC-B2F1-A570A461D461}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
