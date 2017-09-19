@@ -3,20 +3,19 @@
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="CRMUNDev">
+    <DataSource Name="CRMUNProduction">
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=192.168.21.102;Initial Catalog=Prueba_MSCRM</ConnectString>
-        <Prompt>Specify a user name and password for data source CRMUNDev:</Prompt>
+        <ConnectString>Data Source=UN-SQ-01;Initial Catalog=CRMUn_MSCRM</ConnectString>
       </ConnectionProperties>
       <rd:SecurityType>DataBase</rd:SecurityType>
-      <rd:DataSourceID>e1793ed5-8a4b-4d58-866b-3a214c537629</rd:DataSourceID>
+      <rd:DataSourceID>c0113e9a-1635-4f41-83ef-fd23ab139cff</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
     <DataSet Name="DataSet1">
       <Query>
-        <DataSourceName>CRMUNDev</DataSourceName>
+        <DataSourceName>CRMUNProduction</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="FechaInicial">
             <Value>=Parameters!FechaInicial.Value</Value>
@@ -102,7 +101,7 @@ ORDER BY 'ID Evento', 'Horas acumuladas'</CommandText>
     </DataSet>
     <DataSet Name="DataSet2">
       <Query>
-        <DataSourceName>CRMUNDev</DataSourceName>
+        <DataSourceName>CRMUNProduction</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="FechaInicial">
             <Value>=Parameters!FechaInicial.Value</Value>
@@ -146,7 +145,7 @@ GROUP BY ee.un_Agrupador, ee.OwnerIdName, rh.un_costo</CommandText>
     </DataSet>
     <DataSet Name="DataSet3">
       <Query>
-        <DataSourceName>CRMUNDev</DataSourceName>
+        <DataSourceName>CRMUNProduction</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="FechaInicial">
             <Value>=Parameters!FechaInicial.Value</Value>
